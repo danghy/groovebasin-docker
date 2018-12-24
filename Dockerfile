@@ -2,8 +2,7 @@ FROM ubuntu:16.04
 
 WORKDIR /home/groovebasin
 
-RUN mkdir /home/groovebasin/music && \
-    mkdir /home/groovebasin/groove
+RUN mkdir /home/groovebasin/music
 
 RUN apt-get update \
     && apt-get upgrade -y \
