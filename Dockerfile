@@ -27,7 +27,7 @@ RUN cp -a /home/groovebasin-source/. .
 RUN npm run build
 
 # Fix Youtube import error by updating ytdl-core module
-RUN npm install ytdl-core@~0.29.2 --save
+RUN npm install ytdl-core@~0.29.5 --save
 
 # Generate default config.json
 RUN npm start; exit 0
